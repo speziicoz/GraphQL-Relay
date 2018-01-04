@@ -1,0 +1,24 @@
+{
+    "name": "GraphQL-Relay",
+    "version": "1.0.0",
+    "description": "React on the Server for Beginners: Build a Universal React and Node App",
+    "author": "Champ N. Jaikaew",
+    "license": "MIT",
+    "main": "index.js",
+    "engines": {
+      "node": "7.6.0",
+      "npm": "4.1.2"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/speziicoz/GraphQL-Relay.git"
+    },
+    "private": true,
+    "scripts": {
+      "dev": "babel-node ./src/server/development.js",
+      "update-schema": "babel-node ./src/server/scripts/updateSchema.js && npm run relay",
+      "relay": "relay-compiler --src ./src --schema ./src/server/graphql/schema.graphql",
+      "lint": "eslint ./src"
+    }
+  }
+  
