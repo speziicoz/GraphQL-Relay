@@ -1,5 +1,5 @@
 {
-    "name": "GraphQL-Relay",
+    "name": "graphql-relay",
     "version": "1.0.0",
     "description": "React on the Server for Beginners: Build a Universal React and Node App",
     "author": "Champ N. Jaikaew",
@@ -11,7 +11,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/speziicoz/GraphQL-Relay.git"
+      "url": "https://github.com/speziicoz/graphql-relay.git"
     },
     "private": true,
     "scripts": {
